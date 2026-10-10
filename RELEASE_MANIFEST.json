@@ -1,0 +1,102 @@
+{
+  "release": "RNA2D-XFuse partial public code v2",
+  "scope": "partial; core Top-K scorer and dynamic fusion head omitted",
+  "tests": {
+    "syntax_compile_errors": [],
+    "unittest_returncode": 0
+  },
+  "files": {
+    ".gitignore": {
+      "sha256": "c8b6d617e5e69d7740be7b1f1e53c03afc1a977bbded60b545dd2a5dfd08ec90",
+      "bytes": 121
+    },
+    "NOTICE.md": {
+      "sha256": "a16dbc03871eb648f0ee65581b06ae6194cb4b85b50b9a8983d116ccc3133e61",
+      "bytes": 634
+    },
+    "README.md": {
+      "sha256": "6059f8c4810955d326d31acb4919c31f1a59ba6fc8fec1b04efda5645285b9a6",
+      "bytes": 3792
+    },
+    "data/__init__.py": {
+      "sha256": "fad2096fe16d3091d21060d991f6a18f97dd6d334d22c16badd95d4ea1761f85",
+      "bytes": 417
+    },
+    "data/aligned_rna2d.py": {
+      "sha256": "fcfc8d6b16603e42707152512b87c6d9e88df57bcf20174d7450d52aee6b9255",
+      "bytes": 1780
+    },
+    "data/rna_structure.py": {
+      "sha256": "b48a97ab75b924f99c48c270dd2c7c651617b37a3bb25de44de1a835a70dadd9",
+      "bytes": 1907
+    },
+    "evaluation/__init__.py": {
+      "sha256": "bcdd2877704d412b59ed7dbf86919c33d5412b11f2d90e7d5a7cb0d7ea29ac92",
+      "bytes": 231
+    },
+    "evaluation/fold_summary.py": {
+      "sha256": "39e23a6086635536c370878c7270eed0391148296b73388275c75ea30c7bb575",
+      "bytes": 874
+    },
+    "evaluation/metrics.py": {
+      "sha256": "be02cf3c965ea32f6e061857f91f6db36e8c0f6b595eb12d258402a8d82d811a",
+      "bytes": 1190
+    },
+    "examples/component_smoke.py": {
+      "sha256": "d45768e79e42f6404dfd7f47c5a8212e79dbe9252d7442948ecdd61e07cf4d5e",
+      "bytes": 1034
+    },
+    "model/__init__.py": {
+      "sha256": "24bbde276c89ed3f072bdf0f39eade5f95941106fbbaecf92fa52442f38ed426",
+      "bytes": 221
+    },
+    "model/backbone.py": {
+      "sha256": "cf51a68ba175d63a549161c2f9d549e49980a3dd4de33e17b7d072eac0d99e98",
+      "bytes": 3277
+    },
+    "model/cross_attention.py": {
+      "sha256": "4abe97c134a6bfd3542d4f155a9be0c95c22260f70fed5363ab30eb41b0eeab0",
+      "bytes": 1556
+    },
+    "model/pooling.py": {
+      "sha256": "9591ac9f99bb42e871c7f7d7c17bc07182bf0b69f4c960e04a6f3c30f9bb4539",
+      "bytes": 366
+    },
+    "model/rna_graph.py": {
+      "sha256": "b8cdcf6fe8582b6bc04a24ff6101805562a2e47f8d1ad7b4c99210f54629a116",
+      "bytes": 2542
+    },
+    "requirements.txt": {
+      "sha256": "2abb3753a5bef171f5ba937974d643afcb9ff0e47bd99adfc1bc4bc2e97d8592",
+      "bytes": 41
+    },
+    "tests/test_losses_metrics.py": {
+      "sha256": "2b7131e01710f979d39355795bd6e2376196c4086220507d224329b7d85fe752",
+      "bytes": 1910
+    },
+    "tests/test_model_components.py": {
+      "sha256": "49bd4f6d4eb40c43d3adca1393e35212b854c79d84d340284eac0988097301e3",
+      "bytes": 1480
+    },
+    "tests/test_structure.py": {
+      "sha256": "8deb78e934ece100ddbec3c66a9a2955b5b56c791afe2220a9348c7d7790c5c2",
+      "bytes": 813
+    },
+    "training/__init__.py": {
+      "sha256": "326165035e24ce1116e9ce582a0490097fe5b97a7dc787beb3045a2ca826b4f0",
+      "bytes": 250
+    },
+    "training/losses.py": {
+      "sha256": "a8d397e2190f865fde03e2194e85372ffd008dd82a9e97cf45a0e37f9eae3b22",
+      "bytes": 1202
+    },
+    "training/objective.py": {
+      "sha256": "c4ca750c1b91f48b0527eca181b04b912b3bcdfec8aca90ff2ef8d842707bef8",
+      "bytes": 522
+    },
+    "training/reproducibility.py": {
+      "sha256": "74edb26aa681102338e94fc5b4307ca6cc7113a651d95cd7b030ae17a5b3cada",
+      "bytes": 186
+    }
+  }
+}
